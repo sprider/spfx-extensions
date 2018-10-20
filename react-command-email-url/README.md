@@ -30,7 +30,7 @@ Version|Date|Comments
 
 ## Minimal Path to Awesome
 
-- Clone this repository
+- Clone [this](https://github.com/sprider/spfx-extensions/tree/master/react-command-email-url) repository
   - Open serve.json file under config folder. Update PageUrl to the URL of the list you wish to test.
 ![react-command-email-url](./assets/servejson.png)
 - Move to folder where this readme exists
