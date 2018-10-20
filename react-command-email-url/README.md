@@ -4,12 +4,11 @@ In SharePoint there used to be a 'copy shortcut' option in the right-click menu 
 
 This SPFx extension opens a dialog where the user can see the document full path. The Email Link button helps the user to share the link via default email client.
 
-![react-command-email-url](./assets/Snip20170622_2.png)
-![react-command-email-url](./assets/Snip20170622_3.png)
-![react-command-email-url](./assets/Snip20170622_6.png)
+![react-command-email-url](./assets/sample.png)
+![react-command-email-url](./assets/email.png)
 
 ## Used SharePoint Framework Version 
-SPFx 1.6
+SPFx v1.6
 
 ## Applies to
 
@@ -33,17 +32,14 @@ Version|Date|Comments
 
 - Clone this repository
 - Move to folder where this readme exists
+  - Open serve.json file under config folder. Update PageUrl to the URL of the list you wish to test.
+![react-command-email-url](./assets/servejson.png)
 - In the command window run:
   - `npm install`
-  - `gulp serve --nobrowser`
-- Use following query parameter in the SharePoint site to get extension loaded without installing it to app catalog
-
-## Debug URL for testing
-Open serve.json file under config folder. Update PageUrl to the URL of the list you wish to test.
-![react-command-email-url](./assets/Snip20170622_6.png)
+  - `gulp serve`
 
 ## Features
-This project contains SharePoint Framework extensions that illustrates next features:
+This project contains SharePoint Framework extensions that illustrates the following features:
 * Command extension
 * Office UI Fabric React
 
