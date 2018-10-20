@@ -1,6 +1,6 @@
 ## react-command-email-url
 
-In SharePoint there used to be a 'copy shortcut' option in the right-click menu on a document. This featrue is not avilable currently. Now we need to go to the share sub-menu to get a link to the document, but what is offered there is the docidredir link, not the full path.
+In SharePoint there used to be a 'copy shortcut' option in the right-click menu on a document. This feature is not available currently. Now we need to go to the share sub-menu to get a link to the document, but what is offered there is the docidredir link, not the full path.
 
 This SPFx extension opens a dialog where the user can see the document full path. The Email Link button helps the user to share the link via default email client.
 
