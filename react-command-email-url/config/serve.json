@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://tenant.sharepoint.com/sites/dev/Lists/Test%20List/AllItems.aspx",
+      "customActions": {
+        "2a09cf58-59bf-400d-ad52-313123fd753f": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {
+            
+          }
+        }
+      }
+    },
+    "emailFileUrl": {
+      "pageUrl": "https://tenant.sharepoint.com/sites/dev/Lists/Test%20List/AllItems.aspx",
+      "customActions": {
+        "2a09cf58-59bf-400d-ad52-313123fd753f": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {
+            
+          }
+        }
+      }
+    }
+  }
+}

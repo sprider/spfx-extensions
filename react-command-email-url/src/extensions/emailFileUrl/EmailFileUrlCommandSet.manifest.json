@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "2a09cf58-59bf-400d-ad52-313123fd753f",
+  "alias": "EmailFileUrlCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+  "version": "*",
+  "manifestVersion": 2,
+ "requiresCustomScript": false,
+
+  "items": {
+    "EmailFileUrl": {
+      "title": { "default": "Email Url" },
+      "iconImageUrl": "icons/mail.png",
+      "type": "command"
+    }
+  }
+}

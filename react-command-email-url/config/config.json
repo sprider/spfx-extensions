@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "email-file-url-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/emailFileUrl/EmailFileUrlCommandSet.js",
+          "manifest": "./src/extensions/emailFileUrl/EmailFileUrlCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EmailFileUrlCommandSetStrings": "lib/extensions/emailFileUrl/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "react-command-email-url",
+    "libraryId": "cdbc8369-f331-4ceb-8cee-0d81d9e0ccdc",
+    "packageManager": "npm",
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}

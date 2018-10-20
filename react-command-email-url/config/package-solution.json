@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-command-email-url-client-side-solution",
+    "id": "cdbc8369-f331-4ceb-8cee-0d81d9e0ccdc",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": false,
+    "skipFeatureDeployment": false,
+    "features": [
+      {
+        "title": "EmailFileUrl",
+        "description": "Deploys EmailFileUrl custom action with ClientSideComponentId association",
+        "id": "f502b065-32cc-4233-a13a-cb386b7ba804",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-command-email-url.sppkg"
+  }
+}

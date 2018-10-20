@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="EmailFileUrl"
+        RegistrationId="100"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ClientSideComponentId="2a09cf58-59bf-400d-ad52-313123fd753f"
+        ClientSideComponentProperties="{}">
+    </CustomAction>
+</Elements>
