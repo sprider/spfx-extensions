@@ -31,9 +31,9 @@ Version|Date|Comments
 ## Minimal Path to Awesome
 
 - Clone this repository
-- Move to folder where this readme exists
   - Open serve.json file under config folder. Update PageUrl to the URL of the list you wish to test.
 ![react-command-email-url](./assets/servejson.png)
+- Move to folder where this readme exists
 - In the command window run:
   - `npm install`
   - `gulp serve`
