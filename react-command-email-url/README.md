@@ -39,16 +39,8 @@ Version|Date|Comments
 - Use following query parameter in the SharePoint site to get extension loaded without installing it to app catalog
 
 ## Debug URL for testing
-Here's a debug URL for testing around this sample. 
-
-```
-?loadSpfx=true&debugManifestsFile=https://localhost:4321/temp/manifests.js&customActions={"2a09cf58-59bf-400d-ad52-313123fd753f":{"location":"ClientSideExtension.ListViewCommandSet.CommandBar"}}
-```
-Full URL to request would be something like following:
-
-```
-https://{yourtenant}.sharepoint.com/sites/dev/Pages/Forms/AllItems.aspx?loadSpfx=true&debugManifestsFile=https://localhost:4321/temp/manifests.js&customActions={"2a09cf58-59bf-400d-ad52-313123fd753f":{"location":"ClientSideExtension.ListViewCommandSet.CommandBar"}}
-```
+Open serve.json file under config folder. Update PageUrl to the URL of the list you wish to test.
+![react-command-email-url](./assets/Snip20170622_6.png)
 
 ## Features
 This project contains SharePoint Framework extensions that illustrates next features:
