@@ -2,7 +2,7 @@
 
 With the profile completeness extension we can encourage or force users to fill their profiles. This sample SPFx extension renders a profile completeness meter where the user can see the score details.  
 
-![react-application-profile-meter](./assets/ScoreDetails.PNG)
+![react-application-profile-meter](./assets/Score.PNG)
 ![react-application-profile-meter](./assets/ScoreDetails.PNG)
 
 ## Used SharePoint Framework Version 
