@@ -2,8 +2,8 @@
 
 With the profile completeness extension we can encourage or force users to fill their profiles. This sample SPFx extension renders a profile completeness meter where the user can see the score details.  
 
-![react-application-profile-meter](./assets/score.png)
-![react-application-profile-meter](./assets/scoredetails.png)
+![react-application-profile-meter](./assets/ScoreDetails.PNG)
+![react-application-profile-meter](./assets/ScoreDetails.PNG)
 
 ## Used SharePoint Framework Version 
 SPFx v1.6
@@ -30,7 +30,7 @@ Version|Date|Comments
 
 - Clone [this](https://github.com/sprider/spfx-extensions/tree/master/react-application-profile-meter) repository
   - Open serve.json file under config folder. Update PageUrl where you wish to test.
-![react-application-profile-meter](./assets/servejson.png)
+![react-application-profile-meter](./assets/servejson.PNG)
 - Move to folder where this readme exists
 - In the command window run:
   - `npm install`
