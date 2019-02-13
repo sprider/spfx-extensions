@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ProfileMeter"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="099fb6fb-0de9-4750-84a2-2d0b88aa3e48"
+        ClientSideComponentProperties="{}">
+    </CustomAction>
+</Elements>
